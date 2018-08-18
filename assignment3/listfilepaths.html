@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form action="uploaddbpath.php" method="post" enctype="multipart/form-data">
+    Select image to upload:
+    <input type="file" name="fileToUpload" id="fileToUpload"><br>
+    <p>Add a description</p>
+    <textarea rows="10" cols="35"
+              name="fileDescription"></textarea>
+    <br/>
+    <input type="submit" value="Upload Image" name="submit"><br>
+    <a href='http://18.222.209.72/amkowalsk/assignment3/listdbpath.php'>View files in database by path</a><br>
+
+    <br>
+    <a href='http://18.222.209.72/amkowalsk/assignment3/upload.html'>Upload files to subdirectory</a><br>
+    <a href='http://18.222.209.72/amkowalsk/assignment3/listfiles.html'>Upload files to database with description</a><br>
+    <button onclick="history.back()">Back</button>
+</form>
+
+</body>
+</html>
