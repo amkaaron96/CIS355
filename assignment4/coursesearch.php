@@ -17,7 +17,7 @@ function printForm(){
 	echo "Instructor<br/>";
 	echo "<input type='text' placeholder='gpcorser' name='instructor'><br/>";
     echo "Days<br/>";
-	echo "<input type='text' placeholder='M,T,W,R,F,MW,TR' name='day'><br/>";
+	echo "<input type='text' placeholder='MW' name='day'><br/>";
 	//echo "Building/Room<br/>";
 	//echo "<input type='text' name='building'>";
 	//echo "<input type='text' name='room'><br/>";
